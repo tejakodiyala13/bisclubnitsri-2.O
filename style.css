@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #0b2653;
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 60px;
+  margin-right: 15px;
+}
+
+.logo .title h1 {
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 10px 0;
+}
+
+nav li {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.left, .right {
+  width: 20%;
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.left h3, .right h3 {
+  background-color: #4caf50;
+  color: white;
+  padding: 5px;
+}
+
+.left ul, .quick-links ul {
+  list-style: none;
+  padding: 10px 0;
+}
+
+.left li, .quick-links li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.center {
+  width: 60%;
+}
+
+.banner-img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: #1b237e;
+}
+
+.new {
+  color: red;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #0b2653;
+  color: white;
+  margin-top: 20px;
+}
